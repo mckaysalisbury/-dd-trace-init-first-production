@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "A package that initializes dd trace when the environment is production, (and is lexographically superior, so that it is sorted to be \"first\")",
   "main": "index.js",
+  "types": "index.d.ts",
+  "repository": "https://github.com/mckaysalisbury/-dd-trace-init-first-production",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
