@@ -1,0 +1,18 @@
+{
+  "name": "-dd-trace-init-first-production",
+  "version": "1.0.0",
+  "description": "A package that initializes dd trace when the environment is production, (and is lexographically superior, so that it is sorted to be \"first\")",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dd-trace",
+    "init"
+  ],
+  "author": "McKay Salisbury",
+  "license": "MIT",
+  "dependencies": {
+    "dd-trace": "^0.17.1"
+  }
+}
