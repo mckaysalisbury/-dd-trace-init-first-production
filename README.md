@@ -22,4 +22,4 @@ To use this package, import or require it.
   perfect](https://en.wikisource.org/wiki/Constitution_of_the_United_States_of_America)
   than anything else I can think of.
 * `production` - It only runs `init()` if the node env is production. Someone
-  might want a `0-dd-trace-init-first` that runs always or something. 
+  might want a `0-dd-trace-init-first` that runs always or something.
