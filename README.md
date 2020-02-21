@@ -10,9 +10,9 @@ To use this package, import or require it.
 
 * `0-` - beginning with a `-` is slightly prefered to me, but npmjs.com doesn't
   allow it. It just errors with a 404 if you try, so it might be a bug, but my
-  gut says it's intentional. Note that `0-` is lexographically superior to
-  `00000-`. `0-` is the most lexographically superior prefix for an npmjs.com
-  package.
+  gut says it's intentional. It's not consistent with the npm package though.
+  Note that `0-` is lexographically superior to `00000-`. `0-` is the most
+  lexographically superior prefix for an npmjs.com package.
 * `dd-trace` - It's a `dd-trace` lib at heart, so it's got `dd-trace` in it.
 * `init` - It runs the `init()` method.
 * `first` - This is kind of redundant with the `0-` prefix, but this should

@@ -1,10 +1,10 @@
 {
   "name": "0-dd-trace-init-first-production",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A package that initializes dd trace when the environment is production, (and is lexographically superior, so that it is sorted to be \"first\")",
   "main": "index.js",
   "types": "index.d.ts",
-  "repository": "https://github.com/mckaysalisbury/-dd-trace-init-first-production",
+  "repository": "https://github.com/dave-inc/-dd-trace-init-first-production",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,7 +14,8 @@
   ],
   "author": "McKay Salisbury",
   "license": "MIT",
-  "dependencies": {
-    "dd-trace": "^0.17.1"
-  }
+  "peerDependencies": {
+    "dd-trace": ">= 0.1"
+  },
+  "dependencies": {}
 }
