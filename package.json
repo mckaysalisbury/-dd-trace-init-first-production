@@ -15,7 +15,7 @@
   "author": "McKay Salisbury",
   "license": "MIT",
   "peerDependencies": {
-    "dd-trace": ">= 0.1"
+    "dd-trace": ">= 0.9.1"
   },
   "dependencies": {}
 }
