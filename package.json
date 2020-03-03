@@ -1,6 +1,6 @@
 {
   "name": "0-dd-trace-init-first-production",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A package that initializes dd trace when the environment is production, (and is lexographically superior, so that it is sorted to be \"first\")",
   "main": "index.js",
   "types": "index.d.ts",
