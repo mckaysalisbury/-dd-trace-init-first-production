@@ -1,6 +1,6 @@
 import ddTrace from 'dd-trace';
 
-if (process.env.NODE_ENV === 'production') {
+if (process.env.DATADOG_ENABLED === 'true') {
   ddTrace.init();
 }
 

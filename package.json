@@ -1,7 +1,7 @@
 {
-  "name": "0-dd-trace-init-first-production",
+  "name": "0-dd-trace-init-first-datadog-enabled",
   "version": "1.1.1",
-  "description": "A package that initializes dd trace when the environment is production, (and is lexographically superior, so that it is sorted to be \"first\")",
+  "description": "A package that initializes dd trace when the `DATADOG_ENABLED true` is an environment variable, (and is lexographically superior, so that it is sorted to be \"first\")",
   "main": "index.js",
   "types": "index.d.ts",
   "repository": "https://github.com/dave-inc/-dd-trace-init-first-production",
